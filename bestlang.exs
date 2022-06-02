@@ -5,14 +5,15 @@ a = 3
   end
   def fard do 
   IO.puts "hello"
-  IO.puts a + 3
-
   end
 
 end
 
 MyTestScript.say_hi
+if a = 3 do
 MyTestScript.fard
+IO.puts a
+end
 
 #export PATH=/opt/homebrew/bin:$PATH
-#elixir /Users/ekam/IdeaProjects/bestlang.exs
+#elixir /Users/ekam/IdeaProjects/Elixir_Messaround/bestlang.exs
