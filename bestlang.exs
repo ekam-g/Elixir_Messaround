@@ -5,6 +5,11 @@ a = 3
   end
   def fard do 
   IO.puts "hello"
+    if a = 3 do
+      for n <- [1, 2, 3, 4, 5] do
+      IO.puts "your monther"
+      end
+    end
   end
 
 end
